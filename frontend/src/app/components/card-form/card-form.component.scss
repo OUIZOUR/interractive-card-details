@@ -1,0 +1,164 @@
+
+.formulaire{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+
+.small-img{
+  display: none;
+}
+
+.big-img{
+  position: absolute;
+  width: 30%;
+  height: 100%;
+}
+
+.input-name{
+  width: 380px ;
+  border-radius: 4px;
+  height: 35px;
+}
+
+.input-date{
+  width: 60px ;
+  border-radius: 4px;
+  height: 35px;
+}
+
+.input-cvc{
+  width: 214px ;
+  border-radius: 4px;
+  height: 35px;
+}
+.horizontal-space{
+  margin-left: 10px;
+}
+
+.vertical-space{
+  margin-top: 20px;
+}
+
+.button{
+  width: 388px ;
+  border: none;
+  background-color: hsl(278, 68%, 11%);
+  height: 42px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+}
+
+.date-cvc{
+  display: flex;
+}
+
+//fron card
+
+.image-front{
+  position: absolute;
+   left: 10%;
+   top:15%;
+}
+.info-number{
+  position: absolute;
+  left: 11%;
+  top: 45%;
+  color:white;
+  font-size: 30px;
+}
+.info-name{
+  position: absolute;
+  left: 11%;
+  top: 70%;
+  color:white;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.info-date{
+  position: absolute;
+  right: 11%;
+  top: 70%;
+  color:white;
+  font-size: 20px;
+}
+
+.image-back{
+  position: absolute; left: 15%; top:56%;
+}
+
+.info-back{
+  position: absolute;
+  top: 48%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 15px;
+}
+
+.error{
+  color: hsl(0, 100%, 66%);
+}
+
+//page confirmation
+
+.confirmation{
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.thank-you{
+  font-size: 20px;
+  color: hsl(278, 68%, 11%);
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.details{
+  color: hsl(279, 6%, 55%);
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 452px) {
+
+  .big-img{
+    display: none;
+  }
+
+  .small-img{
+    display: block;
+    position: absolute;
+    width: auto;
+    height: 50%;
+  }
+
+  .formulaire{
+    position: absolute;
+    left: 14%;
+    top: 71%;
+  }
+
+  .image-front{
+    position: absolute;
+     left: 3%;
+     top:27%;
+  }
+
+  .image-back{
+    position: absolute;
+    left: 10%;
+    top:4%;
+  }
+  .confirmation{
+    position: absolute;
+    left: 14%;
+    top: 71%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
